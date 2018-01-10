@@ -21,6 +21,8 @@
 #ifndef __DISPATCH_PUBLIC__
 #define __DISPATCH_PUBLIC__
 
+#include <sys/types.h>
+
 #ifdef __APPLE__
 #include <Availability.h>
 #include <os/availability.h>
@@ -30,7 +32,6 @@
 #include <os/linux_base.h>
 #endif
 
-#include <sys/types.h>
 #include <stddef.h>
 #include <stdint.h>
 #include <stdbool.h>
