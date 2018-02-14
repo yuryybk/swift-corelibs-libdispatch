@@ -6237,7 +6237,7 @@ dispatch_main(void)
 		pthread_setspecific(dispatch_main_key, &dispatch_main_key);
 		_dispatch_sigmask();
 #endif
-		pthread_exit(NULL);
+		//pthread_exit(NULL);
 		DISPATCH_INTERNAL_CRASH(errno, "pthread_exit() returned");
 #if HAVE_PTHREAD_MAIN_NP
 	}
